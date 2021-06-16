@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\beings">
+      <UniqueIdentifier>{d57aca1a-397f-4e6d-92dc-5e862834672b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\beings">
+      <UniqueIdentifier>{bd63f270-85a9-4e0c-bcef-01a4aea647e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\sprites_init">
+      <UniqueIdentifier>{69c8805b-ce2c-4173-b0db-6aad09872d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\init_sprites">
+      <UniqueIdentifier>{0da33c41-61b4-4cbb-a0dd-930df20dcef9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Asteroids.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="environment.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Исходные файлы\beings</Filter>
+    </ClCompile>
+    <ClCompile Include="Spacecraft.cpp">
+      <Filter>Исходные файлы\beings</Filter>
+    </ClCompile>
+    <ClCompile Include="init_textures.cpp">
+      <Filter>Исходные файлы\init_sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="init_file_paths.cpp">
+      <Filter>Исходные файлы\init_sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="init_sprites.cpp">
+      <Filter>Исходные файлы\init_sprites</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="environment.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="libs.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Файлы заголовков\beings</Filter>
+    </ClInclude>
+    <ClInclude Include="Spacecraft.hpp">
+      <Filter>Файлы заголовков\beings</Filter>
+    </ClInclude>
+    <ClInclude Include="point.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_names.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="init_sprites.hpp">
+      <Filter>Файлы заголовков\sprites_init</Filter>
+    </ClInclude>
+    <ClInclude Include="directions.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
