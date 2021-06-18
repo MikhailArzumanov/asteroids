@@ -2,9 +2,7 @@
 #include "environment.hpp"
 
 void Spacecraft::draw() {
-	sprite->setRotation(tilt_alpha);
-	sprite->setPosition(p.x-r, p.y-r);
-	window.draw(*sprite);
+	Entity::draw();
 	for (int i = 0; i < directions_amount; i++)
 		if (is_thrust[i]) {
 			sf::Sprite& thrust = sprites[thrust_right + i];

@@ -70,24 +70,25 @@ void collide() {
 }
 
 void live() {
-	for (auto itr = beings.begin(); itr != beings.end(); itr++) {
+	for (auto itr = beings.begin(); (beings.size()>1) && (itr!=beings.end()); itr++) {
 		auto& being = *itr;
-		if (being->is_dead())
+		if (being->is_dead()) {
+			delete being;
 			beings.erase(itr);
+		}
 	}
 }
 
 void tick() {
 	the_clock.restart();
 
+	interact();
+	live();
+	collide();
 	if (++counter > 30) {
 		beings.push_back(new Asteroid());
 		counter = 0;
 	}
-
-	interact();
-	live();
-	collide();
 	draw();
 	spacecraft->move();
 	for (auto being in beings)

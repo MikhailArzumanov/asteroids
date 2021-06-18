@@ -22,32 +22,9 @@ Projectile::Projectile(point start, point target) {
 	tilt_alpha = 90.f + angle*180.f/PI;
 
 	p = start;
-	a = point{ 0,0 };
 	sprite = &(sprites[prjctile]);
 	
 	r = 25.f;
 }
 
-void Projectile::draw() {
-	sprite->setRotation(tilt_alpha);
-	sprite->setPosition(p.x, p.y);
-	window.draw(*sprite);
-}
-void Projectile::move() {
-	float K = 1 / 60.f;
-	p.x += K * v.x; p.y += K * v.y;
-}
 
-
-void Projectile::collide(Entity* collidable) {
-	float radiuses = sqr(r + collidable->get_r()); 
-	float dist = p.get_sqr_dist(collidable->get_p());
-	if (radiuses < dist) return;
-	switch (collidable->get_type()) {
-	case asteroid_type:
-		lifetime = 0;
-		for(int i=0;i<10;i++)
-			beings.push_back(new Explosion(p));
-		break;
-	}
-}

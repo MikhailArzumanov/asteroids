@@ -15,20 +15,9 @@ Asteroid::Asteroid() {
 	p.x = start_X; p.y = start_Y;
 	
 	point spacecraft_point = spacecraft->get_point();
-
 	float speed_coefficient = 4.f;
 	v = (spacecraft_point - p) / speed_coefficient;
 
-}
-
-void Asteroid::draw() {
-	sprite->setRotation(tilt_alpha);
-	sprite->setPosition(p.x, p.y);
-	window.draw(*sprite);
-}
-void Asteroid::move() {
-	float K = 1 / 60.f;
-	p.x += K * v.x; p.y += K * v.y;
 }
 
 

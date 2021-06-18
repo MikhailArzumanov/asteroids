@@ -34,6 +34,12 @@
     <Filter Include="Исходные файлы\beings\Projectile">
       <UniqueIdentifier>{849f68e7-d3d8-4ef3-a3be-ff4fbfcad8b6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\beings\AbstractEntity">
+      <UniqueIdentifier>{d7a8cd2a-84d1-4eb7-94fe-a2bac63c0e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\beings\Explosion">
+      <UniqueIdentifier>{b2d77d5e-ac5a-4bc6-8cb1-28a15817810d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Asteroids.cpp">
@@ -41,9 +47,6 @@
     </ClCompile>
     <ClCompile Include="environment.cpp">
       <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Исходные файлы\beings</Filter>
     </ClCompile>
     <ClCompile Include="init_textures.cpp">
       <Filter>Исходные файлы\init_sprites</Filter>
@@ -78,8 +81,23 @@
     <ClCompile Include="Asteroid.cpp">
       <Filter>Исходные файлы\beings\Asteroid</Filter>
     </ClCompile>
+    <ClCompile Include="projectile_collide.cpp">
+      <Filter>Исходные файлы\beings\Projectile</Filter>
+    </ClCompile>
     <ClCompile Include="Explosion.cpp">
-      <Filter>Исходные файлы\beings</Filter>
+      <Filter>Исходные файлы\beings\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="enitty_getters.cpp">
+      <Filter>Исходные файлы\beings\AbstractEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_is_dead.cpp">
+      <Filter>Исходные файлы\beings\AbstractEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_draw.cpp">
+      <Filter>Исходные файлы\beings\AbstractEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_move.cpp">
+      <Filter>Исходные файлы\beings\AbstractEntity</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
