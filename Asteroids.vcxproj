@@ -156,15 +156,23 @@
   <ItemGroup>
     <ClCompile Include="Asteroid.cpp" />
     <ClCompile Include="Asteroids.cpp" />
+    <ClCompile Include="asteroid_collide.cpp" />
+    <ClCompile Include="collide.cpp" />
+    <ClCompile Include="draw.cpp" />
     <ClCompile Include="enitty_getters.cpp" />
     <ClCompile Include="entity_draw.cpp" />
     <ClCompile Include="entity_is_dead.cpp" />
     <ClCompile Include="entity_move.cpp" />
     <ClCompile Include="environment.cpp" />
+    <ClCompile Include="event_handler.cpp" />
     <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="gen_asteroids.cpp" />
     <ClCompile Include="init_file_paths.cpp" />
     <ClCompile Include="init_sprites.cpp" />
     <ClCompile Include="init_textures.cpp" />
+    <ClCompile Include="interact.cpp" />
+    <ClCompile Include="live.cpp" />
+    <ClCompile Include="move.cpp" />
     <ClCompile Include="point.cpp" />
     <ClCompile Include="Projectile.cpp" />
     <ClCompile Include="projectile_collide.cpp" />
@@ -179,6 +187,7 @@
     <ClInclude Include="directions.hpp" />
     <ClInclude Include="Entity.hpp" />
     <ClInclude Include="environment.hpp" />
+    <ClInclude Include="environment_functions.hpp" />
     <ClInclude Include="Explosion.hpp" />
     <ClInclude Include="init_sprites.hpp" />
     <ClInclude Include="libs.hpp" />

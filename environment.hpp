@@ -18,3 +18,4 @@ extern sf::RenderWindow window;
 extern std::vector<Entity*> beings;
 extern sf::Clock the_clock;
 extern Spacecraft* spacecraft;
+extern int counter;
