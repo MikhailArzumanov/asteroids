@@ -5,5 +5,8 @@ enum sprite_names {
 	thrust_down,
 	thrust_left,
 	thrust_up,
+	prjctile,
+	astroid,
+	explosion,
 	sprites_amount
 };

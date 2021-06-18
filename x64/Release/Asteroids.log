@@ -1,8 +1,11 @@
 ﻿  Asteroids.cpp
-  Spacecraft.cpp
+C:\Users\Mikhaill\source\repos\CPlusPlus\SFML\Asteroids\Asteroids.cpp(20,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Mikhaill\source\repos\CPlusPlus\SFML\Asteroids\Asteroids.cpp(47,12): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+  Explosion.cpp
+C:\Users\Mikhaill\source\repos\CPlusPlus\SFML\Asteroids\Asteroids.cpp(47,33): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
   Создание кода
-  4 of 141 functions ( 2.8%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  68 of 231 functions (29.4%) were compiled, the rest were copied from previous compilation.
+    30 functions were new in current compilation
+    9 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   Asteroids.vcxproj -> C:\Users\Mikhaill\source\repos\CPlusPlus\SFML\Asteroids\x64\Release\Asteroids.exe

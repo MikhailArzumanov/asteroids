@@ -154,21 +154,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Asteroid.cpp" />
     <ClCompile Include="Asteroids.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="environment.cpp" />
+    <ClCompile Include="Explosion.cpp" />
     <ClCompile Include="init_file_paths.cpp" />
     <ClCompile Include="init_sprites.cpp" />
     <ClCompile Include="init_textures.cpp" />
+    <ClCompile Include="point.cpp" />
+    <ClCompile Include="Projectile.cpp" />
     <ClCompile Include="Spacecraft.cpp" />
+    <ClCompile Include="spacecraft_blast.cpp" />
+    <ClCompile Include="spacecraft_draw.cpp" />
+    <ClCompile Include="spacecraft_move.cpp" />
+    <ClCompile Include="spacecraft_thrust.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Asteroid.hpp" />
     <ClInclude Include="directions.hpp" />
     <ClInclude Include="Entity.hpp" />
     <ClInclude Include="environment.hpp" />
+    <ClInclude Include="Explosion.hpp" />
     <ClInclude Include="init_sprites.hpp" />
     <ClInclude Include="libs.hpp" />
     <ClInclude Include="point.hpp" />
+    <ClInclude Include="Projectile.hpp" />
     <ClInclude Include="Spacecraft.hpp" />
     <ClInclude Include="sprite_names.hpp" />
   </ItemGroup>

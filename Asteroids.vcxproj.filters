@@ -25,6 +25,15 @@
     <Filter Include="Исходные файлы\init_sprites">
       <UniqueIdentifier>{0da33c41-61b4-4cbb-a0dd-930df20dcef9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\beings\Spacecraft">
+      <UniqueIdentifier>{8372e2f3-d441-4353-b361-8f311af0f425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\beings\Asteroid">
+      <UniqueIdentifier>{b70f0768-286c-4c19-9495-48286c5e919e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\beings\Projectile">
+      <UniqueIdentifier>{849f68e7-d3d8-4ef3-a3be-ff4fbfcad8b6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Asteroids.cpp">
@@ -36,9 +45,6 @@
     <ClCompile Include="Entity.cpp">
       <Filter>Исходные файлы\beings</Filter>
     </ClCompile>
-    <ClCompile Include="Spacecraft.cpp">
-      <Filter>Исходные файлы\beings</Filter>
-    </ClCompile>
     <ClCompile Include="init_textures.cpp">
       <Filter>Исходные файлы\init_sprites</Filter>
     </ClCompile>
@@ -47,6 +53,33 @@
     </ClCompile>
     <ClCompile Include="init_sprites.cpp">
       <Filter>Исходные файлы\init_sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="spacecraft_thrust.cpp">
+      <Filter>Исходные файлы\beings\Spacecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="spacecraft_blast.cpp">
+      <Filter>Исходные файлы\beings\Spacecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="spacecraft_move.cpp">
+      <Filter>Исходные файлы\beings\Spacecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="spacecraft_draw.cpp">
+      <Filter>Исходные файлы\beings\Spacecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Spacecraft.cpp">
+      <Filter>Исходные файлы\beings\Spacecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Исходные файлы\beings\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>Исходные файлы\beings\Asteroid</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Исходные файлы\beings</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +106,15 @@
     </ClInclude>
     <ClInclude Include="directions.hpp">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.hpp">
+      <Filter>Файлы заголовков\beings</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.hpp">
+      <Filter>Файлы заголовков\beings</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.hpp">
+      <Filter>Файлы заголовков\beings</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
