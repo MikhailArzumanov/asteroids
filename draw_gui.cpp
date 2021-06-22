@@ -12,9 +12,13 @@ void draw_gui_base() {
 	window.draw(gui_base);
 }
 
+void draw_guide() {
+	sf::Sprite& guide = sprites[guide_sprite];
+	window.draw(guide);
+}
+
 void draw_gui() {
 	draw_gui_base();
-	stats.draw_hp();
-	stats.draw_upgrades();
-	stats.draw_funds();
+	stats.draw();
+	draw_guide();
 }

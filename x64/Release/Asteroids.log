@@ -1,8 +1,7 @@
-﻿  draw_funds.cpp
-  upgrade.cpp
+﻿  draw_gui.cpp
   Создание кода
-  5 of 361 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
+  21 of 363 functions ( 5.8%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    8 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   Asteroids.vcxproj -> C:\Users\Mikhaill\source\repos\CPlusPlus\SFML\Asteroids\x64\Release\Asteroids.exe

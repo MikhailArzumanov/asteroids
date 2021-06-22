@@ -8,5 +8,6 @@ enum sprite_names {
 	prjctile,
 	astroid,
 	explosion,
+	guide_sprite,
 	sprites_amount
 };

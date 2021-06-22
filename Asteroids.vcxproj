@@ -188,6 +188,7 @@
     <ClCompile Include="move.cpp" />
     <ClCompile Include="PlayerStats.cpp" />
     <ClCompile Include="player_stats_blast.cpp" />
+    <ClCompile Include="player_stats_draw.cpp" />
     <ClCompile Include="player_stats_tick.cpp" />
     <ClCompile Include="point.cpp" />
     <ClCompile Include="Projectile.cpp" />

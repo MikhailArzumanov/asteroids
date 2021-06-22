@@ -225,6 +225,9 @@
     <ClCompile Include="draw_funds.cpp">
       <Filter>Исходные файлы\env_classes\PlayerStats\Draw</Filter>
     </ClCompile>
+    <ClCompile Include="player_stats_draw.cpp">
+      <Filter>Исходные файлы\env_classes\PlayerStats\Draw</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.hpp">

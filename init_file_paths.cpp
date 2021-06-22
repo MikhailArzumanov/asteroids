@@ -9,5 +9,5 @@ void init_textures_paths() {
 	texture_paths[prjctile]		= "projectile";
 	texture_paths[astroid]		= "asteroid";
 	texture_paths[explosion]	= "explosion";
-	
+	texture_paths[guide_sprite] = "guide";
 }

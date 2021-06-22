@@ -40,6 +40,7 @@ public:
 
 	void tick();
 
+	void draw();
 	void draw_funds();
 	void draw_upgrades();
 	void draw_hp();
