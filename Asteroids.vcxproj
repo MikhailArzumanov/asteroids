@@ -155,10 +155,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Asteroid.cpp" />
+    <ClCompile Include="AsteroidGenerator.cpp" />
     <ClCompile Include="Asteroids.cpp" />
     <ClCompile Include="asteroid_collide.cpp" />
+    <ClCompile Include="asteroid_destroyed.cpp" />
     <ClCompile Include="collide.cpp" />
+    <ClCompile Include="create_asteroid.cpp" />
     <ClCompile Include="draw.cpp" />
+    <ClCompile Include="draw_buy.cpp" />
+    <ClCompile Include="draw_funds.cpp" />
+    <ClCompile Include="draw_gui.cpp" />
+    <ClCompile Include="draw_hp.cpp" />
+    <ClCompile Include="draw_upgrades.cpp" />
     <ClCompile Include="enitty_getters.cpp" />
     <ClCompile Include="entity_draw.cpp" />
     <ClCompile Include="entity_is_dead.cpp" />
@@ -166,31 +174,47 @@
     <ClCompile Include="environment.cpp" />
     <ClCompile Include="event_handler.cpp" />
     <ClCompile Include="Explosion.cpp" />
-    <ClCompile Include="gen_asteroids.cpp" />
+    <ClCompile Include="getters.cpp" />
+    <ClCompile Include="heal.cpp" />
+    <ClCompile Include="heal_up.cpp" />
+    <ClCompile Include="hit.cpp" />
     <ClCompile Include="init_file_paths.cpp" />
     <ClCompile Include="init_sprites.cpp" />
     <ClCompile Include="init_textures.cpp" />
     <ClCompile Include="interact.cpp" />
+    <ClCompile Include="is_able_to_blast.cpp" />
+    <ClCompile Include="key_pressed.cpp" />
     <ClCompile Include="live.cpp" />
     <ClCompile Include="move.cpp" />
+    <ClCompile Include="PlayerStats.cpp" />
+    <ClCompile Include="player_stats_blast.cpp" />
+    <ClCompile Include="player_stats_tick.cpp" />
     <ClCompile Include="point.cpp" />
     <ClCompile Include="Projectile.cpp" />
     <ClCompile Include="projectile_collide.cpp" />
+    <ClCompile Include="reinforce.cpp" />
     <ClCompile Include="Spacecraft.cpp" />
     <ClCompile Include="spacecraft_blast.cpp" />
+    <ClCompile Include="spacecraft_collide.cpp" />
     <ClCompile Include="spacecraft_draw.cpp" />
+    <ClCompile Include="spacecraft_is_dead.cpp" />
+    <ClCompile Include="spacecraft_key_pressed.cpp" />
     <ClCompile Include="spacecraft_move.cpp" />
     <ClCompile Include="spacecraft_thrust.cpp" />
+    <ClCompile Include="upgrade.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Asteroid.hpp" />
+    <ClInclude Include="AsteroidGenerator.hpp" />
     <ClInclude Include="directions.hpp" />
     <ClInclude Include="Entity.hpp" />
     <ClInclude Include="environment.hpp" />
     <ClInclude Include="environment_functions.hpp" />
     <ClInclude Include="Explosion.hpp" />
+    <ClInclude Include="gui.hpp" />
     <ClInclude Include="init_sprites.hpp" />
     <ClInclude Include="libs.hpp" />
+    <ClInclude Include="PlayerStats.hpp" />
     <ClInclude Include="point.hpp" />
     <ClInclude Include="Projectile.hpp" />
     <ClInclude Include="Spacecraft.hpp" />

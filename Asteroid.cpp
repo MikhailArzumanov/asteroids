@@ -1,22 +1,26 @@
 #include "Asteroid.hpp"
 #include "environment.hpp"
+#include <iostream>
 
-Asteroid::Asteroid() {
+float gen_rand_coord(const int DIM, int r) {
+	int res = rand() % (DIM + 4*r) - 2*r;
+	if (0 <= res  && res <= SCREEN_WIDTH) {
+		if (res < DIM/2)
+			 res = -2*r;
+		else res = DIM+2*r;
+	}
+	return static_cast<float>(res);
+}
+
+Asteroid::Asteroid(float speed_coef) {
 	type = asteroid_type;
-	lifetime = -1;
-	r = 50;
+	lifetime = -1; r = 50;
 	sprite = &(sprites[astroid]);
-	float start_X = rand() % (static_cast<int>(2 * r)) - r;
-	if (start_X > 0)
-		start_X += SCREEN_WIDTH; 
-	float start_Y = rand() % (static_cast<int>(2 * r)) - r;
-	if (start_Y > 0)
-		start_Y += SCREEN_HEIGHT;
-	p.x = start_X; p.y = start_Y;
-	
+	float start_X = rand() % (SCREEN_WIDTH + static_cast<int>(4*r)) - static_cast<int>(2*r);
+	float start_Y = gen_rand_coord(SCREEN_HEIGHT, static_cast<int>(r));
+	p = { start_X, start_Y };
 	point spacecraft_point = spacecraft->get_point();
-	float speed_coefficient = 4.f;
-	v = (spacecraft_point - p) / speed_coefficient;
+	v = (spacecraft_point - p)*speed_coef;
 
 }
 

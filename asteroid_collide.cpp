@@ -7,6 +7,7 @@ void Asteroid::collide(Entity* collidable) {
 	if (radiuses < dist) return;
 	switch (collidable->get_type()) {
 	case projectile_type:
+	case spacecraft_type:
 		lifetime = 0;
 		break;
 	}

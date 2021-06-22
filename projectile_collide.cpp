@@ -9,6 +9,7 @@ void Projectile::collide(Entity* collidable) {
 	switch (collidable->get_type()) {
 	case asteroid_type:
 		lifetime = 0;
+		stats.asteroid_destoyed();
 		for (int i = 0; i < 10; i++)
 			beings.push_back(new Explosion(p));
 		break;

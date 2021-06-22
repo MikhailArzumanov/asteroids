@@ -2,6 +2,8 @@
 #include "libs.hpp"
 #include "Spacecraft.hpp"
 #include "sprite_names.hpp"
+#include "PlayerStats.hpp"
+#include "AsteroidGenerator.hpp"
 
 float sqr(float x);
 
@@ -12,6 +14,9 @@ extern sf::Texture		textures[sprites_amount];
 extern sf::Sprite		 sprites[sprites_amount];
 
 extern bool is_key_pressed[sf::Keyboard::KeyCount];
+
+extern PlayerStats stats;
+extern AsteroidGenerator generator;
 
 extern sf::RenderWindow window;
 

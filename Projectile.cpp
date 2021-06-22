@@ -8,23 +8,27 @@ float sgn(float x) {
 	return x < 0 ? -1.f : 1.f;
 }
 
-Projectile::Projectile(point start, point target) {
-	type = projectile_type;
-	lifetime = -1;
-	point dp = target - start;
-	float angle = (dp.x <= 0) ? PI : 0;
+float get_angle(point& dp) {
+	float res = (dp.x <= 0) ? PI : 0;
 	if (dp.x != 0)
-		angle += atan(dp.y / dp.x);
-	else angle += PI / 2.f * sgn(dp.y);
-	const float speed = 100;
-	v.x = cos(angle) * speed;
-	v.y = sin(angle) * speed;
-	tilt_alpha = 90.f + angle*180.f/PI;
+		res += atan(dp.y / dp.x);
+	else res += PI / 2.f * sgn(dp.y);
+	return res;
+}
 
-	p = start;
+Projectile::Projectile(point start, point target, float _proj_velocity) {
+	type = projectile_type;
 	sprite = &(sprites[prjctile]);
-	
+	lifetime = -1;
 	r = 25.f;
+	p = start;
+
+	point target_vector = target - start;
+	float angle = get_angle(target_vector);
+	tilt_alpha = 90.f + angle * 180.f / PI;
+	v.x = cos(angle)*_proj_velocity; 
+	v.y = sin(angle)*_proj_velocity;
+	
 }
 
 

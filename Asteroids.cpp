@@ -4,32 +4,34 @@
 #include "Asteroid.hpp"
 #include <vector>
 
-const point spacecraft_start = { 615.f,335.f };
+const point spacecraft_start = {615.f, 335.f};
 Spacecraft* spacecraft = new Spacecraft(spacecraft_start);
-int counter;
+PlayerStats stats = PlayerStats();
+AsteroidGenerator generator = AsteroidGenerator();
 
 void tick();
 void cycle();
 
 int main(){
-	counter = 0;
+	beings.push_back(spacecraft);
 	init_sprites();
 	srand(time(0));
-	while (window.isOpen())
+	while(window.isOpen())
 		cycle();
 }
 
 void cycle() {
 	event_handler();
 	float time = the_clock.getElapsedTime().asSeconds();
-	if (time > 1 / 60.f)
+	if (time > 1/60.f)
 		tick();
 }
 
 void tick() {
-	the_clock.restart();
+	stats.tick();
 
-	gen_asteroids();
+	the_clock.restart();
+	generator.create_asteroid();
 	interact();
 	live();
 	collide();

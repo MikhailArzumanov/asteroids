@@ -4,7 +4,7 @@
 class Asteroid : public Entity{
 
 public:
-	Asteroid();
+	Asteroid(float time_coef);
 	
 	void collide(Entity* collidable);
 };

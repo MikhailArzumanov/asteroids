@@ -20,7 +20,7 @@ protected:
 	sf::Sprite* sprite=nullptr;
 public:
 	EntityTypes get_type();
-	bool is_dead();
+	virtual bool is_dead();
 	float get_r();
 	point get_p();
 
