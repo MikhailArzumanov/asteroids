@@ -1,3 +1,5 @@
 # asteroids
 
-simple implementation of classic game (in development)
+game inspired by a classic arcade-game Asteroids
+
+(in development)
