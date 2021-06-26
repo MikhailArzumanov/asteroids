@@ -79,6 +79,9 @@
     <Filter Include="Исходные файлы\env_classes\PlayerStats\Draw">
       <UniqueIdentifier>{c52dce55-ef1e-4bd4-acb8-10b9920d9119}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\beings\BorderAsteroid">
+      <UniqueIdentifier>{57fe426e-4f3b-4e2a-80e1-aeea05ca9aef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Asteroids.cpp">
@@ -174,9 +177,6 @@
     <ClCompile Include="create_asteroid.cpp">
       <Filter>Исходные файлы\env_classes\AsteroidGenerator</Filter>
     </ClCompile>
-    <ClCompile Include="spacecraft_key_pressed.cpp">
-      <Filter>Исходные файлы\beings\Spacecraft</Filter>
-    </ClCompile>
     <ClCompile Include="key_pressed.cpp">
       <Filter>Исходные файлы\MainProgramm</Filter>
     </ClCompile>
@@ -228,6 +228,18 @@
     <ClCompile Include="player_stats_draw.cpp">
       <Filter>Исходные файлы\env_classes\PlayerStats\Draw</Filter>
     </ClCompile>
+    <ClCompile Include="BorderAsteroid.cpp">
+      <Filter>Исходные файлы\beings\BorderAsteroid</Filter>
+    </ClCompile>
+    <ClCompile Include="str_from.cpp">
+      <Filter>Исходные файлы\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="create_borders.cpp">
+      <Filter>Исходные файлы\env_classes\AsteroidGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="border_asteroid_collide.cpp">
+      <Filter>Исходные файлы\beings\BorderAsteroid</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.hpp">
@@ -274,6 +286,9 @@
     </ClInclude>
     <ClInclude Include="gui.hpp">
       <Filter>Файлы заголовков\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="BorderAsteroid.hpp">
+      <Filter>Файлы заголовков\beings</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

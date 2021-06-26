@@ -11,5 +11,7 @@ void tick();
 void cycle();
 void move();
 
+std::string str_from(int x);
+
 void draw_buy_error();
 void draw_buy_success();

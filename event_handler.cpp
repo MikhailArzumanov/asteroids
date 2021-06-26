@@ -18,7 +18,8 @@ void event_handler() {
 			break;
 		case sf::Event::MouseButtonPressed:
 			if (stats.is_able_to_blast()) {
-				float x = e.mouseButton.x, y = e.mouseButton.y;
+				float x = static_cast<float>(e.mouseButton.x), 
+					  y = static_cast<float>(e.mouseButton.y);
 				spacecraft->blast(point{ x, y });
 				stats.blast();
 			}

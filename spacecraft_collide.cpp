@@ -6,6 +6,7 @@ void Spacecraft::collide(Entity* collidable) {
 	if (radiuses < dist) return;
 	switch (collidable->get_type()) {
 	case asteroid_type:
+	case border_asteroid_type:
 		stats.hit(10.f);
 		break;
 	case explosion_type:

@@ -4,7 +4,7 @@
 
 void key_pressed(sf::Keyboard::Key key_code) {
 	bool res = false;
-	if (stats.get_hp() == 0) 
+	if (is_gameover) 
 		return;
 
 	PlayerStats::UpgradeType type;

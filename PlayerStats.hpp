@@ -3,8 +3,6 @@
 
 const float BAR_WIDTH = 200.f, BAR_HEIGHT = 40.f;
 
-
-
 class PlayerStats {
 public:
 	enum UpgradeType {

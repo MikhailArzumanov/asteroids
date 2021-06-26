@@ -7,6 +7,7 @@ enum EntityTypes {
 	projectile_type,
 	asteroid_type,
 	explosion_type,
+	border_asteroid_type,
 	entity_types_amount
 };
 

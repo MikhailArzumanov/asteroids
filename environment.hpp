@@ -15,6 +15,8 @@ extern sf::Sprite		 sprites[sprites_amount];
 
 extern bool is_key_pressed[sf::Keyboard::KeyCount];
 
+extern bool is_gameover;
+
 extern PlayerStats stats;
 extern AsteroidGenerator generator;
 

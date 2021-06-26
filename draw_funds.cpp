@@ -1,12 +1,6 @@
 #include "PlayerStats.hpp"
 #include "environment.hpp"
-#include <sstream>
-
-std::string str_from(int x) {
-	std::ostringstream sstream;
-	sstream << x;
-	return sstream.str();
-}
+#include "environment_functions.hpp"
 
 const float FUNDS_X = 1060.f, FUNDS_Y = 230.f;
 

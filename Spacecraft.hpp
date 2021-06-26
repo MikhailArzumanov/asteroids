@@ -5,10 +5,8 @@
 
 class Spacecraft : public Entity {
 	bool is_thrust[directions_amount] = {false};
-	bool was_dead = false;
 public:
 	Spacecraft(point p_start);
-
 
 	void thrust(int direction);
 	void blast(point blast_target);

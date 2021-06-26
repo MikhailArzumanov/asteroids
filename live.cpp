@@ -3,12 +3,14 @@
 
 const sf::Color HALF_TRANSPARENT(255u, 255u, 255u, 127u);
 
+
 void gameover() {
 	sprites[spccraft].setColor(HALF_TRANSPARENT);
+	is_gameover = true;
 }
 
 void live() {
-	if (spacecraft->is_dead())
+	if (!is_gameover && spacecraft->is_dead())
 		gameover();
 	for (auto itr = beings.begin(); (beings.size() > 1) && (itr < beings.end()); itr++) {
 		auto& being = *itr;
