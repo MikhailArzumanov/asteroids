@@ -13,10 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Файлы заголовков\beings">
+      <UniqueIdentifier>{99288e91-e422-450f-acf2-533188599287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\abstract">
+      <UniqueIdentifier>{7657232a-2baf-45d6-addb-a272dd0cf069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\abstract\interfaces">
+      <UniqueIdentifier>{d54fefdb-811f-428b-8cba-05428d712ef4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Asteroids.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ICollidable.hpp">
+      <Filter>Файлы заголовков\abstract\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawable.hpp">
+      <Filter>Файлы заголовков\abstract\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ILiving.hpp">
+      <Filter>Файлы заголовков\abstract\interfaces</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
