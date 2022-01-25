@@ -108,6 +108,9 @@
     <ClCompile Include="window.cpp">
       <Filter>Исходные файлы\environment</Filter>
     </ClCompile>
+    <ClCompile Include="player_stats_getters.cpp">
+      <Filter>Исходные файлы\player\stats</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IDrawable.hpp">

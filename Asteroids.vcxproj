@@ -157,6 +157,7 @@
     <ClCompile Include="Asteroids.cpp" />
     <ClCompile Include="being_is_living.cpp" />
     <ClCompile Include="circle_is_collides_with.cpp" />
+    <ClCompile Include="player_stats_getters.cpp" />
     <ClCompile Include="point_get_sqr_dist.cpp" />
     <ClCompile Include="point_operators.cpp" />
     <ClCompile Include="rocket_draw.cpp" />
