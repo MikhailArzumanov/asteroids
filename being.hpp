@@ -4,5 +4,6 @@
 #include "IDrawable.hpp"
 
 class Being : public Circle, public ILiving, public IDrawable {
+public:
 	virtual bool is_living();
 };
