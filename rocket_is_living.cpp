@@ -1,0 +1,5 @@
+#include "rocket.hpp"
+
+bool Rocket::is_living() {
+
+}

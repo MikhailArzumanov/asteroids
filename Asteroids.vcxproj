@@ -155,11 +155,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Asteroids.cpp" />
+    <ClCompile Include="being_is_living.cpp" />
+    <ClCompile Include="circle_is_collides_with.cpp" />
+    <ClCompile Include="point_get_sqr_dist.cpp" />
+    <ClCompile Include="point_operators.cpp" />
+    <ClCompile Include="rocket_draw.cpp" />
+    <ClCompile Include="rocket_is_living.cpp" />
+    <ClCompile Include="spacecraft_draw.cpp" />
+    <ClCompile Include="spacecraft_is_living.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ICollidable.hpp" />
+    <ClInclude Include="being.hpp" />
+    <ClInclude Include="circle.hpp" />
     <ClInclude Include="IDrawable.hpp" />
     <ClInclude Include="ILiving.hpp" />
+    <ClInclude Include="point.hpp" />
+    <ClInclude Include="rocket.hpp" />
+    <ClInclude Include="shape.hpp" />
+    <ClInclude Include="shape_type.hpp" />
+    <ClInclude Include="spacecraft.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

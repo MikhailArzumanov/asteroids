@@ -22,21 +22,96 @@
     <Filter Include="Файлы заголовков\abstract\interfaces">
       <UniqueIdentifier>{d54fefdb-811f-428b-8cba-05428d712ef4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\abstract\shapes">
+      <UniqueIdentifier>{686a7254-7813-48db-8cf4-712454b1ac81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\abstract">
+      <UniqueIdentifier>{aa941994-5dd1-4c7e-a746-239f8a57505d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\abstract\shapes">
+      <UniqueIdentifier>{ec9ced0a-1acf-4f13-bec8-e3ec97651c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\abstract\shapes\circle">
+      <UniqueIdentifier>{8e9f476f-6dc4-4576-b902-5f39c8579180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\structs">
+      <UniqueIdentifier>{5efffc52-e06a-44d6-a1ae-9cab54e3ce22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\structs">
+      <UniqueIdentifier>{7ba4e110-cd06-4052-94e1-99350a593d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\structs\point">
+      <UniqueIdentifier>{e1851e43-a27f-4389-ae00-236be872b8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\beings">
+      <UniqueIdentifier>{4879aa72-947e-498d-bd1e-e4dc370a9508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\beings\spacecraft">
+      <UniqueIdentifier>{423fb7f3-8e25-4ab8-b32c-824a2f536fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\beings\rocket">
+      <UniqueIdentifier>{b867594e-7d05-468b-90bd-ffefd1d6afb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\abstract\being">
+      <UniqueIdentifier>{476f7da6-8a7d-4960-aad6-6b3e1b32515c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Asteroids.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="circle_is_collides_with.cpp">
+      <Filter>Исходные файлы\abstract\shapes\circle</Filter>
+    </ClCompile>
+    <ClCompile Include="point_operators.cpp">
+      <Filter>Исходные файлы\structs\point</Filter>
+    </ClCompile>
+    <ClCompile Include="point_get_sqr_dist.cpp">
+      <Filter>Исходные файлы\structs\point</Filter>
+    </ClCompile>
+    <ClCompile Include="spacecraft_draw.cpp">
+      <Filter>Исходные файлы\beings\spacecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="spacecraft_is_living.cpp">
+      <Filter>Исходные файлы\beings\spacecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="rocket_draw.cpp">
+      <Filter>Исходные файлы\beings\rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="rocket_is_living.cpp">
+      <Filter>Исходные файлы\beings\rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="being_is_living.cpp">
+      <Filter>Исходные файлы\abstract\being</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ICollidable.hpp">
-      <Filter>Файлы заголовков\abstract\interfaces</Filter>
-    </ClInclude>
     <ClInclude Include="IDrawable.hpp">
       <Filter>Файлы заголовков\abstract\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="ILiving.hpp">
       <Filter>Файлы заголовков\abstract\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="being.hpp">
+      <Filter>Файлы заголовков\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.hpp">
+      <Filter>Файлы заголовков\abstract\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="shape.hpp">
+      <Filter>Файлы заголовков\abstract\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="shape_type.hpp">
+      <Filter>Файлы заголовков\abstract\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="point.hpp">
+      <Filter>Файлы заголовков\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="spacecraft.hpp">
+      <Filter>Файлы заголовков\beings</Filter>
+    </ClInclude>
+    <ClInclude Include="rocket.hpp">
+      <Filter>Файлы заголовков\beings</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
