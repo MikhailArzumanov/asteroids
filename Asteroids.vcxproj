@@ -163,17 +163,24 @@
     <ClCompile Include="rocket_is_living.cpp" />
     <ClCompile Include="spacecraft_draw.cpp" />
     <ClCompile Include="spacecraft_is_living.cpp" />
+    <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="asteroid_type.hpp" />
     <ClInclude Include="being.hpp" />
     <ClInclude Include="circle.hpp" />
     <ClInclude Include="IDrawable.hpp" />
     <ClInclude Include="ILiving.hpp" />
+    <ClInclude Include="player_stats.hpp" />
     <ClInclude Include="point.hpp" />
+    <ClInclude Include="projectile.hpp" />
+    <ClInclude Include="projectile_type.hpp" />
     <ClInclude Include="rocket.hpp" />
     <ClInclude Include="shape.hpp" />
     <ClInclude Include="shape_type.hpp" />
     <ClInclude Include="spacecraft.hpp" />
+    <ClInclude Include="upgrade_type.hpp" />
+    <ClInclude Include="window.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

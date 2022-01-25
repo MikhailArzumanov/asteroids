@@ -55,6 +55,27 @@
     <Filter Include="Исходные файлы\abstract\being">
       <UniqueIdentifier>{476f7da6-8a7d-4960-aad6-6b3e1b32515c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\environment">
+      <UniqueIdentifier>{4be82b14-d99b-42de-bbb9-0d1f5956ad62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\environment">
+      <UniqueIdentifier>{51734357-107b-4fe2-8c8c-ca374e7b673e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\player">
+      <UniqueIdentifier>{95693785-9f8b-44ff-809e-c6f949da336f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\beings\projectiles">
+      <UniqueIdentifier>{8b7494f2-1125-43ab-a44b-62d8bf25c6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\beings\asteroids">
+      <UniqueIdentifier>{55bf91f0-458c-48a6-8d11-ddd9aacb10e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\player">
+      <UniqueIdentifier>{d72034bc-a53c-4240-94bb-26c5f66cae76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\player\stats">
+      <UniqueIdentifier>{3d7ff5c4-0d93-415b-a8b4-7e0d81799e3b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Asteroids.cpp">
@@ -84,6 +105,9 @@
     <ClCompile Include="being_is_living.cpp">
       <Filter>Исходные файлы\abstract\being</Filter>
     </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Исходные файлы\environment</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IDrawable.hpp">
@@ -110,8 +134,26 @@
     <ClInclude Include="spacecraft.hpp">
       <Filter>Файлы заголовков\beings</Filter>
     </ClInclude>
+    <ClInclude Include="window.hpp">
+      <Filter>Файлы заголовков\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="player_stats.hpp">
+      <Filter>Файлы заголовков\player</Filter>
+    </ClInclude>
+    <ClInclude Include="upgrade_type.hpp">
+      <Filter>Файлы заголовков\player</Filter>
+    </ClInclude>
+    <ClInclude Include="projectile.hpp">
+      <Filter>Файлы заголовков\beings\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="projectile_type.hpp">
+      <Filter>Файлы заголовков\beings\projectiles</Filter>
+    </ClInclude>
     <ClInclude Include="rocket.hpp">
-      <Filter>Файлы заголовков\beings</Filter>
+      <Filter>Файлы заголовков\beings\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="asteroid_type.hpp">
+      <Filter>Файлы заголовков\beings\asteroids</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

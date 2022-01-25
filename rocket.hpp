@@ -1,7 +1,7 @@
 #pragma once
-#include "being.hpp"
+#include "projectile.hpp"
 
-class Rocket : public Being {
+class Rocket : public Projectile {
 	void draw();
 	bool is_living();
 };
