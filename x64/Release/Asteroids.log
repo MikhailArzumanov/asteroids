@@ -1,7 +1,60 @@
-﻿  heal.cpp
+﻿  Asteroid.cpp
+  AsteroidGenerator.cpp
+  Asteroids.cpp
+  asteroid_collide.cpp
+  asteroid_destroyed.cpp
+  BorderAsteroid.cpp
+  border_asteroid_collide.cpp
+  collide.cpp
+  create_asteroid.cpp
+  create_borders.cpp
+  draw.cpp
+  draw_buy.cpp
+  draw_funds.cpp
+  draw_gui.cpp
+  draw_hp.cpp
+  draw_upgrades.cpp
+  enitty_getters.cpp
+  entity_draw.cpp
+  entity_is_dead.cpp
+  entity_move.cpp
+  Компиляция...
+  environment.cpp
+  event_handler.cpp
+  Explosion.cpp
+  getters.cpp
+  heal.cpp
+  heal_up.cpp
+  hit.cpp
+  init_file_paths.cpp
+  init_sprites.cpp
+  init_textures.cpp
+  interact.cpp
+  is_able_to_blast.cpp
+  key_pressed.cpp
+  live.cpp
+  move.cpp
+  PlayerStats.cpp
+  player_stats_blast.cpp
+  player_stats_draw.cpp
+  player_stats_tick.cpp
+  point.cpp
+  Компиляция...
+  Projectile.cpp
+  projectile_collide.cpp
+  reinforce.cpp
+  Spacecraft.cpp
+  spacecraft_blast.cpp
+  spacecraft_collide.cpp
+  spacecraft_draw.cpp
+  spacecraft_is_dead.cpp
+  spacecraft_move.cpp
+  spacecraft_thrust.cpp
+  str_from.cpp
+  upgrade.cpp
   Создание кода
-  3 of 386 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
+  379 of 386 functions (98.2%) were compiled, the rest were copied from previous compilation.
+    18 functions were new in current compilation
     1 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
-  Asteroids.vcxproj -> C:\Users\Mikhaill\source\repos\CPlusPlus\SFML\Asteroids\x64\Release\Asteroids.exe
+  Asteroids.vcxproj -> D:\repos\CPlusPlus\SFML\Asteroids\x64\Release\Asteroids.exe
