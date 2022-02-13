@@ -4,7 +4,8 @@
 
 class Shape {
 public:
-	point p;
+	point p, v;
 	ShapeType type;
+	virtual void move();
 	virtual bool is_collides_with(Shape* another) = 0;
 };
