@@ -76,6 +76,9 @@
     <Filter Include="Исходные файлы\player\stats">
       <UniqueIdentifier>{3d7ff5c4-0d93-415b-a8b4-7e0d81799e3b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\abstract\shapes\shape">
+      <UniqueIdentifier>{92e7fc59-8f03-43b5-a236-c38e77f20518}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Asteroids.cpp">
@@ -105,11 +108,17 @@
     <ClCompile Include="being_is_living.cpp">
       <Filter>Исходные файлы\abstract\being</Filter>
     </ClCompile>
+    <ClCompile Include="player_stats_getters.cpp">
+      <Filter>Исходные файлы\player\stats</Filter>
+    </ClCompile>
     <ClCompile Include="window.cpp">
       <Filter>Исходные файлы\environment</Filter>
     </ClCompile>
-    <ClCompile Include="player_stats_getters.cpp">
-      <Filter>Исходные файлы\player\stats</Filter>
+    <ClCompile Include="clock.cpp">
+      <Filter>Исходные файлы\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="shape_move.cpp">
+      <Filter>Исходные файлы\abstract\shapes\shape</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -157,6 +166,9 @@
     </ClInclude>
     <ClInclude Include="asteroid_type.hpp">
       <Filter>Файлы заголовков\beings\asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.hpp">
+      <Filter>Файлы заголовков\environment</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

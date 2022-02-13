@@ -157,11 +157,13 @@
     <ClCompile Include="Asteroids.cpp" />
     <ClCompile Include="being_is_living.cpp" />
     <ClCompile Include="circle_is_collides_with.cpp" />
+    <ClCompile Include="clock.cpp" />
     <ClCompile Include="player_stats_getters.cpp" />
     <ClCompile Include="point_get_sqr_dist.cpp" />
     <ClCompile Include="point_operators.cpp" />
     <ClCompile Include="rocket_draw.cpp" />
     <ClCompile Include="rocket_is_living.cpp" />
+    <ClCompile Include="shape_move.cpp" />
     <ClCompile Include="spacecraft_draw.cpp" />
     <ClCompile Include="spacecraft_is_living.cpp" />
     <ClCompile Include="window.cpp" />
@@ -170,6 +172,7 @@
     <ClInclude Include="asteroid_type.hpp" />
     <ClInclude Include="being.hpp" />
     <ClInclude Include="circle.hpp" />
+    <ClInclude Include="clock.hpp" />
     <ClInclude Include="IDrawable.hpp" />
     <ClInclude Include="ILiving.hpp" />
     <ClInclude Include="player_stats.hpp" />

@@ -9,4 +9,7 @@ protected:
 	sf::Sprite* sprite;
 public:
 	virtual bool is_living();
+	virtual void draw();
+	virtual void tick() = 0;
+	virtual void collide(Being* collidable) = 0;
 };
