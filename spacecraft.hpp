@@ -2,6 +2,10 @@
 #include "being.hpp"
 
 class Spacecraft : public Being {
-	void draw();
+public:
+	Spacecraft(sf::Sprite* sprite_);
+	void collide(Being* collidable);
 	bool is_living();
+	void tick();
+	void draw();
 };
