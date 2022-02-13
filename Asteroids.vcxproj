@@ -155,22 +155,29 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Asteroids.cpp" />
+    <ClCompile Include="being_draw.cpp" />
     <ClCompile Include="being_is_living.cpp" />
     <ClCompile Include="circle_is_collides_with.cpp" />
     <ClCompile Include="clock.cpp" />
     <ClCompile Include="player_stats_getters.cpp" />
+    <ClCompile Include="point_get_angle.cpp" />
     <ClCompile Include="point_get_sqr_dist.cpp" />
     <ClCompile Include="point_operators.cpp" />
+    <ClCompile Include="point_shift_at_angle.cpp" />
     <ClCompile Include="rocket_draw.cpp" />
     <ClCompile Include="rocket_is_living.cpp" />
     <ClCompile Include="shape_move.cpp" />
+    <ClCompile Include="spacecraft_collide.cpp" />
+    <ClCompile Include="spacecraft_constructors.cpp" />
     <ClCompile Include="spacecraft_draw.cpp" />
     <ClCompile Include="spacecraft_is_living.cpp" />
+    <ClCompile Include="spacecraft_tick.cpp" />
     <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="asteroid_type.hpp" />
     <ClInclude Include="being.hpp" />
+    <ClInclude Include="being_type.hpp" />
     <ClInclude Include="circle.hpp" />
     <ClInclude Include="clock.hpp" />
     <ClInclude Include="IDrawable.hpp" />

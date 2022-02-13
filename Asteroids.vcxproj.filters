@@ -120,6 +120,24 @@
     <ClCompile Include="shape_move.cpp">
       <Filter>Исходные файлы\abstract\shapes\shape</Filter>
     </ClCompile>
+    <ClCompile Include="point_shift_at_angle.cpp">
+      <Filter>Исходные файлы\structs\point</Filter>
+    </ClCompile>
+    <ClCompile Include="point_get_angle.cpp">
+      <Filter>Исходные файлы\structs\point</Filter>
+    </ClCompile>
+    <ClCompile Include="being_draw.cpp">
+      <Filter>Исходные файлы\abstract\being</Filter>
+    </ClCompile>
+    <ClCompile Include="spacecraft_tick.cpp">
+      <Filter>Исходные файлы\beings\spacecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="spacecraft_constructors.cpp">
+      <Filter>Исходные файлы\beings\spacecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="spacecraft_collide.cpp">
+      <Filter>Исходные файлы\beings\spacecraft</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IDrawable.hpp">
@@ -169,6 +187,9 @@
     </ClInclude>
     <ClInclude Include="clock.hpp">
       <Filter>Файлы заголовков\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="being_type.hpp">
+      <Filter>Файлы заголовков\beings</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
