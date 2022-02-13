@@ -8,7 +8,7 @@ bool Circle::is_collides_with_circle(Shape* another) {
 }
 
 bool Circle::is_collides_with(Shape* another) {
-	switch(another->type){
+	switch(another->s_type){
 	case circle:
 		return is_collides_with_circle(another);
 	default:
