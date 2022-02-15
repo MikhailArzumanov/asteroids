@@ -94,6 +94,12 @@
     <Filter Include="Исходные файлы\initialization\sprites">
       <UniqueIdentifier>{8e342ee9-2880-4a5e-b1d4-d7a8908571f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\event_handling">
+      <UniqueIdentifier>{8ae2a77b-200c-40d7-aa74-cee1caf3eec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\event_handling">
+      <UniqueIdentifier>{9d0c5572-d09c-418e-ac19-964ec41db293}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Asteroids.cpp">
@@ -180,6 +186,12 @@
     <ClCompile Include="the_spacecraft.cpp">
       <Filter>Исходные файлы\environment</Filter>
     </ClCompile>
+    <ClCompile Include="handle_events.cpp">
+      <Filter>Исходные файлы\event_handling</Filter>
+    </ClCompile>
+    <ClCompile Include="handle_event.cpp">
+      <Filter>Исходные файлы\event_handling</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IDrawable.hpp">
@@ -247,6 +259,9 @@
     </ClInclude>
     <ClInclude Include="beings.hpp">
       <Filter>Файлы заголовков\environment\game_field</Filter>
+    </ClInclude>
+    <ClInclude Include="event_handling.hpp">
+      <Filter>Файлы заголовков\event_handling</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

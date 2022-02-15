@@ -159,6 +159,8 @@
     <ClCompile Include="being_is_living.cpp" />
     <ClCompile Include="circle_is_collides_with.cpp" />
     <ClCompile Include="clock.cpp" />
+    <ClCompile Include="handle_event.cpp" />
+    <ClCompile Include="handle_events.cpp" />
     <ClCompile Include="initialize_clock.cpp" />
     <ClCompile Include="initialize_environment.cpp" />
     <ClCompile Include="initialize_spacecraft.cpp" />
@@ -190,6 +192,7 @@
     <ClInclude Include="being_type.hpp" />
     <ClInclude Include="circle.hpp" />
     <ClInclude Include="clock.hpp" />
+    <ClInclude Include="event_handling.hpp" />
     <ClInclude Include="IDrawable.hpp" />
     <ClInclude Include="ILiving.hpp" />
     <ClInclude Include="initialization.hpp" />
