@@ -79,6 +79,21 @@
     <Filter Include="Исходные файлы\abstract\shapes\shape">
       <UniqueIdentifier>{92e7fc59-8f03-43b5-a236-c38e77f20518}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\initialization">
+      <UniqueIdentifier>{d4ee55ba-692a-4bec-b0c1-f9c5a2a13199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\environment\sprites">
+      <UniqueIdentifier>{510eb989-a91d-441f-8e28-1cb740882e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\environment\game_field">
+      <UniqueIdentifier>{73ff0510-a815-4317-a988-b3d1f6f0a45c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\initialization">
+      <UniqueIdentifier>{4a6e98a7-9551-48f0-8bef-532e02c1d372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\initialization\sprites">
+      <UniqueIdentifier>{8e342ee9-2880-4a5e-b1d4-d7a8908571f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Asteroids.cpp">
@@ -138,6 +153,33 @@
     <ClCompile Include="spacecraft_collide.cpp">
       <Filter>Исходные файлы\beings\spacecraft</Filter>
     </ClCompile>
+    <ClCompile Include="initialize_environment.cpp">
+      <Filter>Исходные файлы\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="initialize_clock.cpp">
+      <Filter>Исходные файлы\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="initialize_window.cpp">
+      <Filter>Исходные файлы\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="initialize_textures_paths.cpp">
+      <Filter>Исходные файлы\initialization\sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="initialize_textures.cpp">
+      <Filter>Исходные файлы\initialization\sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="initialize_sprites.cpp">
+      <Filter>Исходные файлы\initialization\sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="initialize_spacecraft.cpp">
+      <Filter>Исходные файлы\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="sprites.cpp">
+      <Filter>Исходные файлы\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="the_spacecraft.cpp">
+      <Filter>Исходные файлы\environment</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IDrawable.hpp">
@@ -190,6 +232,21 @@
     </ClInclude>
     <ClInclude Include="being_type.hpp">
       <Filter>Файлы заголовков\beings</Filter>
+    </ClInclude>
+    <ClInclude Include="initialization.hpp">
+      <Filter>Файлы заголовков\initialization</Filter>
+    </ClInclude>
+    <ClInclude Include="sprites.hpp">
+      <Filter>Файлы заголовков\environment\sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="sprites_names.hpp">
+      <Filter>Файлы заголовков\environment\sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="the_spacecraft.hpp">
+      <Filter>Файлы заголовков\environment\game_field</Filter>
+    </ClInclude>
+    <ClInclude Include="beings.hpp">
+      <Filter>Файлы заголовков\environment\game_field</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

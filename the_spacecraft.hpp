@@ -1,3 +1,3 @@
 #pragma once
 #include "spacecraft.hpp"
-extern Spacecraft spacecraft;
+extern Spacecraft the_spacecraft;

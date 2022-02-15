@@ -2,6 +2,6 @@
 
 
 enum SpritesNames {
-	spacecraft,
+	spacecraft_sprite,
 	SpritesNamesCount
 };

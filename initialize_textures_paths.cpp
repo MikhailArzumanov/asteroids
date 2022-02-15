@@ -2,6 +2,6 @@
 #include "sprites.hpp"
 
 void initialize_textures_paths() {
-	textures_paths[SpritesNames::spacecraft] = "spacecraft.png";
+	textures_paths[spacecraft_sprite] = "spacecraft.png";
 
 }

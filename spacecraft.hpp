@@ -3,7 +3,7 @@
 
 class Spacecraft : public Being {
 public:
-	Spacecraft(sf::Sprite* sprite_);
+	Spacecraft();
 	void collide(Being* collidable);
 	bool is_living();
 	void tick();

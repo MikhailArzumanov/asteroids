@@ -159,6 +159,13 @@
     <ClCompile Include="being_is_living.cpp" />
     <ClCompile Include="circle_is_collides_with.cpp" />
     <ClCompile Include="clock.cpp" />
+    <ClCompile Include="initialize_clock.cpp" />
+    <ClCompile Include="initialize_environment.cpp" />
+    <ClCompile Include="initialize_spacecraft.cpp" />
+    <ClCompile Include="initialize_sprites.cpp" />
+    <ClCompile Include="initialize_textures.cpp" />
+    <ClCompile Include="initialize_textures_paths.cpp" />
+    <ClCompile Include="initialize_window.cpp" />
     <ClCompile Include="player_stats_getters.cpp" />
     <ClCompile Include="point_get_angle.cpp" />
     <ClCompile Include="point_get_sqr_dist.cpp" />
@@ -172,16 +179,20 @@
     <ClCompile Include="spacecraft_draw.cpp" />
     <ClCompile Include="spacecraft_is_living.cpp" />
     <ClCompile Include="spacecraft_tick.cpp" />
+    <ClCompile Include="sprites.cpp" />
+    <ClCompile Include="the_spacecraft.cpp" />
     <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="asteroid_type.hpp" />
     <ClInclude Include="being.hpp" />
+    <ClInclude Include="beings.hpp" />
     <ClInclude Include="being_type.hpp" />
     <ClInclude Include="circle.hpp" />
     <ClInclude Include="clock.hpp" />
     <ClInclude Include="IDrawable.hpp" />
     <ClInclude Include="ILiving.hpp" />
+    <ClInclude Include="initialization.hpp" />
     <ClInclude Include="player_stats.hpp" />
     <ClInclude Include="point.hpp" />
     <ClInclude Include="projectile.hpp" />
@@ -190,6 +201,9 @@
     <ClInclude Include="shape.hpp" />
     <ClInclude Include="shape_type.hpp" />
     <ClInclude Include="spacecraft.hpp" />
+    <ClInclude Include="sprites.hpp" />
+    <ClInclude Include="sprites_names.hpp" />
+    <ClInclude Include="the_spacecraft.hpp" />
     <ClInclude Include="upgrade_type.hpp" />
     <ClInclude Include="window.hpp" />
   </ItemGroup>
