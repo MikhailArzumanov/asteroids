@@ -176,6 +176,8 @@
     <ClCompile Include="rocket_draw.cpp" />
     <ClCompile Include="rocket_is_living.cpp" />
     <ClCompile Include="shape_move.cpp" />
+    <ClCompile Include="simple_asteroid_draw.cpp" />
+    <ClCompile Include="simple_asteroid_is_living.cpp" />
     <ClCompile Include="spacecraft_collide.cpp" />
     <ClCompile Include="spacecraft_constructors.cpp" />
     <ClCompile Include="spacecraft_draw.cpp" />
@@ -186,6 +188,7 @@
     <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="asteroid.hpp" />
     <ClInclude Include="asteroid_type.hpp" />
     <ClInclude Include="being.hpp" />
     <ClInclude Include="beings.hpp" />
@@ -203,6 +206,7 @@
     <ClInclude Include="rocket.hpp" />
     <ClInclude Include="shape.hpp" />
     <ClInclude Include="shape_type.hpp" />
+    <ClInclude Include="simple_asteroid.hpp" />
     <ClInclude Include="spacecraft.hpp" />
     <ClInclude Include="sprites.hpp" />
     <ClInclude Include="sprites_names.hpp" />

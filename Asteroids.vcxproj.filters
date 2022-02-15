@@ -49,9 +49,6 @@
     <Filter Include="Исходные файлы\beings\spacecraft">
       <UniqueIdentifier>{423fb7f3-8e25-4ab8-b32c-824a2f536fc0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\beings\rocket">
-      <UniqueIdentifier>{b867594e-7d05-468b-90bd-ffefd1d6afb3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Исходные файлы\abstract\being">
       <UniqueIdentifier>{476f7da6-8a7d-4960-aad6-6b3e1b32515c}</UniqueIdentifier>
     </Filter>
@@ -100,6 +97,18 @@
     <Filter Include="Исходные файлы\event_handling">
       <UniqueIdentifier>{9d0c5572-d09c-418e-ac19-964ec41db293}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\beings\projectiles">
+      <UniqueIdentifier>{f7f46a6c-cc0e-4d3d-9cbe-38ebd8e8a118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\beings\projectiles\rocket">
+      <UniqueIdentifier>{b867594e-7d05-468b-90bd-ffefd1d6afb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\beings\asteroids">
+      <UniqueIdentifier>{90f7e406-3099-446d-90f0-4b469eb87daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\beings\asteroids\simple_asteroid">
+      <UniqueIdentifier>{088aee21-0854-4d5d-b8fb-a67c20d28a25}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Asteroids.cpp">
@@ -121,10 +130,10 @@
       <Filter>Исходные файлы\beings\spacecraft</Filter>
     </ClCompile>
     <ClCompile Include="rocket_draw.cpp">
-      <Filter>Исходные файлы\beings\rocket</Filter>
+      <Filter>Исходные файлы\beings\projectiles\rocket</Filter>
     </ClCompile>
     <ClCompile Include="rocket_is_living.cpp">
-      <Filter>Исходные файлы\beings\rocket</Filter>
+      <Filter>Исходные файлы\beings\projectiles\rocket</Filter>
     </ClCompile>
     <ClCompile Include="being_is_living.cpp">
       <Filter>Исходные файлы\abstract\being</Filter>
@@ -191,6 +200,12 @@
     </ClCompile>
     <ClCompile Include="handle_event.cpp">
       <Filter>Исходные файлы\event_handling</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_asteroid_draw.cpp">
+      <Filter>Исходные файлы\beings\asteroids\simple_asteroid</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_asteroid_is_living.cpp">
+      <Filter>Исходные файлы\beings\asteroids\simple_asteroid</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -262,6 +277,12 @@
     </ClInclude>
     <ClInclude Include="event_handling.hpp">
       <Filter>Файлы заголовков\event_handling</Filter>
+    </ClInclude>
+    <ClInclude Include="asteroid.hpp">
+      <Filter>Файлы заголовков\beings\asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_asteroid.hpp">
+      <Filter>Файлы заголовков\beings\asteroids</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
