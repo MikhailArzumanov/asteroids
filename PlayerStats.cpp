@@ -9,4 +9,5 @@ PlayerStats::PlayerStats(){
 	font->loadFromFile("fonts\\\\ar-destine.ttf");
 	text.setFont(*font);
 	text.setCharacterSize(24u);
+	rectangle = sf::RectangleShape({ 40,40 });
 }

@@ -15,7 +15,7 @@ protected:
 	sf::RectangleShape hp_bar = 
 	sf::RectangleShape(sf::Vector2f(BAR_WIDTH, BAR_HEIGHT));
 	sf::Text text;
-
+	sf::RectangleShape rectangle;
 
 	int funds = 0;
 
@@ -41,6 +41,8 @@ public:
 	void draw();
 	void draw_funds();
 	void draw_upgrades();
+	void draw_values();
+	void draw_notations();
 	void draw_hp();
 
 	void asteroid_destoyed();
